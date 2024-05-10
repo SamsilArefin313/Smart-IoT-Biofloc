@@ -1,14 +1,6 @@
-//==Iot base Bioflok monitoring Monitoring System.===
-// Project name: IoT_bioflok.ino
-// Supervisor : Fahmida Sharmin Jui  
-// Assistant Professor, Dept. of C&E, SUB
-// Programing Team :
-// 1. Md : Nazim Uddin  ID:008-15-87 
-// 2. Md : Mizanur Rahman ID:008-15-89
-// Structured: from 10 April 2021
-// Modified by: emilon@gmail.com
-// Modified from: 12 April 2021
-// Contact: +8801711686161
+//==Iot base Biofloc monitoring Monitoring System.===
+// Project name: IoT_biofloc.ino
+
 //HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
 //  ## Hardware Connections (Breakoutboard to ESP32 Arduino):
 //  -VIN = 3.3V
@@ -52,7 +44,7 @@ String s_string;
 LiquidCrystal_I2C lcd(0x27, 20, 4);  // Configure LiquidCrystal_I2C library with 0x27 address, 20 columns and 4 rows
 
 /* Put your SSID & Password */
-const char* ssid = "IoT_Bioflok";  // Enter SSID here
+const char* ssid = "IoT_Biofloc";  // Enter SSID here
 const char* password = "12345678";  //Enter Password here
 
 /* Put IP Address details */
